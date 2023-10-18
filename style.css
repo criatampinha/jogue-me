@@ -1,0 +1,62 @@
+/* Define o estilo para o corpo da página */
+body {
+  background-image: url('');
+  background-size: cover; /* Para cobrir toda a página */
+  background-attachment: fixed; /* Fixar a imagem para que ela não role com o conteúdo */
+  font-family: sans-serif;
+  margin: 0; /* Remover margens padrão do corpo */
+  padding: 0; /* Remover preenchimento padrão do corpo */
+  text-align: center; /* Centraliza todos os elementos de texto (incluindo botões) horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Garante que o corpo ocupa pelo menos toda a altura da viewport */
+  background-color: #ffafcc;
+}
+
+/* Estilo para o cabeçalho h1 */
+h1 {
+  text-align:left;
+  color: rgb(0, 0, 0);
+  padding: 20px; /* Adiciona um espaçamento interno ao cabeçalho */
+}
+
+/* Estilo para o elemento de áudio */
+audio {
+  width: 100%;
+}
+
+/* Estilo para o elemento input */
+input {
+  width: 20%;
+  height: 50px;
+  margin: 5px auto; /* Centraliza o botão na horizontal e adiciona margem superior e inferior */
+  display: block;
+  border-radius: 100px; /* Adiciona uma borda arredondada ao input */
+ }
+
+/* Estilo para o botão */
+button {
+  background-color: #ffee00;
+  border-radius: 100px;
+  width: 20%;
+  height: 50px;
+  margin: 5px auto; /* Centraliza o botão na horizontal e adiciona margem superior e inferior */
+  display: block; /* Define o botão como um bloco para que a margem funcione corretamente */
+}
+
+/* Estilo para a classe 'hidden' (ocultar elementos) */
+.hidden {
+  display: none;
+}
+
+
+img {
+  width: 350px;
+  height: 350px;
+}
+
+#resposta{
+  text-align: center;
+}

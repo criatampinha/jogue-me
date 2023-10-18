@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Jogo qual é a música?</title>
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+</head>
+<body>
+<div class="logo">
+  <img src="Borcelle3.png" alt="Logo do site">
+</div>
+
+    <button id="start-game" onclick="startGame()">Iniciar jogo</button>
+    <div id="game-container"></div>
+    <button id="play-music" class="hidden">Play</button>
+    <label id="lbl-resposta" for="resposta" class="hidden"></label>
+    <input type="text" id="resposta" class="hidden"  placeholder="Digite o nome da música" required></input>
+    <button id="btn-resposta" class="hidden">Enviar</button>
+    <button id="btn-sopt" class="hidden">spotify-player</button>
+    
+</body>
+<script src="https://sdk.scdn.co/spotify-player.js"></script>
+<script src="script.js"></script>
+</html>
